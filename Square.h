@@ -22,7 +22,7 @@ public:
 	// Postcondition: side = s;
 	//	name = n (default value: "Square")
 	//
-	Square(double s, std::string n = "Square") : side(s), Rectangle(side, side) { setName(n); }
+	Square(double s, std::string n = "Square") : side(s), Rectangle(s, s) { setName(n); }
 
 private:
 	double side;		// Variable to store the length of the side of the square.
