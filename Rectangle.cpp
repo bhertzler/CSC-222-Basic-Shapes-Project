@@ -26,7 +26,7 @@ double Rectangle::getWidth() const
 	return width;
 }
 
-Rectangle::Rectangle(double l, double w, string n = "Rectangle")
+Rectangle::Rectangle(double l, double w, string n)
 {
 	length = l;
 	width = w;

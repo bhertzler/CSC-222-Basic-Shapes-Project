@@ -31,7 +31,7 @@ double Circle::getRadius() const
 	return radius;
 }
 
-Circle::Circle(double cx, double cy, double r, string n = "Circle")
+Circle::Circle(double cx, double cy, double r, string n)
 {
 	xCenter = cx;
 	yCenter = cy;
